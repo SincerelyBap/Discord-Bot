@@ -1,7 +1,7 @@
 // Dependencies
 const Command = require('../../structures/Command.js');
 
-module.exports = class Play extends Command {
+class Play extends Command {
 	constructor(bot) {
 		super(bot, {
 			name: 'play',
